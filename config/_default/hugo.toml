@@ -1,0 +1,16 @@
+# timeout
+timeout = "1200s"
+# your website url
+baseURL = 'https://portfolio.rautela.me'
+# website title
+title = 'portfolio'
+# don't touch this
+disableKinds = ["section", "taxonomy", "term", "home"]
+# robots.txt
+enableRobotsTXT = true
+
+[module]
+# This is the relative path to hugo theme directory([official doc](https://gohugo.io/hugo-modules/configuration/#module-configuration-top-level))**.
+replacements = "github.com/Sped0n/bridget/v2 -> bridget"
+[[module.imports]]
+path = "github.com/Sped0n/bridget/v2"
