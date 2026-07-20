@@ -29,7 +29,7 @@ export async function loadGsap(): Promise<typeof gsap> {
 
 export function getThresholdSessionIndex(): number {
   const s = sessionStorage.getItem('thresholdsIndex')
-  if (s === null) return 2
+  if (s === null) return 1
   return parseInt(s)
 }
 

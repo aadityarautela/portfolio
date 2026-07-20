@@ -41,7 +41,7 @@ const ConfigStateContext = createContext<ConfigStateContextType>()
 
 function getSafeThresholdIndex(): number {
   const index = getThresholdSessionIndex()
-  if (index < 0 || index >= thresholds.length) return 2
+  if (index < 0 || index >= thresholds.length) return 1
   return index
 }
 
